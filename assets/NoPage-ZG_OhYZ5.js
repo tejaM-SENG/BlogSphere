@@ -1,0 +1,1 @@
+import"./rolldown-runtime-hePW80VL.js";import{c as e,n as t,r as n}from"./index-Beg-7WCs.js";e();var r=t(),i=()=>(0,r.jsxs)(`div`,{className:`container p-5 text-center`,children:[(0,r.jsx)(`h2`,{children:`Page Not Found`}),(0,r.jsx)(n,{to:`/`,children:(0,r.jsx)(`button`,{className:`btn btn-primary`,children:`Go Home`})})]});export{i as default};
