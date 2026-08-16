@@ -1,0 +1,26 @@
+.nav-link{
+    margin:5px;
+    border-radius:10px;
+    font-weight: 200px;
+    color: white
+}
+.nav-link:hover{
+    color:black;
+    background-color: crimson;
+    border-radius: 10px;
+    transition-duration: 0.25s;
+}
+.login:hover{
+    background-color:rgb(148, 148, 148) !important;
+    transition-duration: 0.25s;
+}
+.register:hover{
+    background-color:rgba(190, 32, 32, 0.764) !important;
+    transition-duration: 0.25s;
+}
+.hblog:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2) !important;
+    transform:translateY(-10px);
+    transition-delay: 0s !important;
+    transition-timing-function: linear;
+}
