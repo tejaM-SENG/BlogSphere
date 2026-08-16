@@ -1,0 +1,1 @@
+import{i as e,n as t}from"./index-Ccv_Zt0p.js";var n=t();function r({children:t,role:r}){let i=JSON.parse(localStorage.getItem(`user`));return i?r&&i.role!==r?(0,n.jsx)(e,{to:`/`,replace:!0}):t:(0,n.jsx)(e,{to:`/login`,replace:!0})}export{r as default};
