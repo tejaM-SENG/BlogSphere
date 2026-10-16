@@ -1,0 +1,1 @@
+import{n as e}from"./index-Beg-7WCs.js";var t=e();function n(){return(0,t.jsx)(`footer`,{className:`bg-dark text-white py-4`,children:(0,t.jsx)(`div`,{className:`container text-center`,children:(0,t.jsx)(`small`,{children:`© 2026 All Rights Reserved for Teja. M`})})})}export{n as default};
