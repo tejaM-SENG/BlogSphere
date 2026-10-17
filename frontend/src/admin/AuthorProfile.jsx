@@ -17,7 +17,7 @@ function AuthorProfile() {
   const fetchAuthor = async () => {
     try {
       const res = await axios.get(
-        `http://127.0.0.1:8000/api/users/${id}/`
+        `https://blogspheredb.onrender.com/api/users/${id}/`
       );
 
       setAuthor(res.data);
@@ -31,7 +31,7 @@ function AuthorProfile() {
   const fetchAuthorBlogs = async () => {
     try {
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/blogs/"
+        "https://blogspheredb.onrender.com/api/blogs/"
       );
 
       const authorBlogs = res.data.filter(
