@@ -24,7 +24,7 @@ function AdminDashboard() {
 
       // Get all users
       const usersRes = await axios.get(
-        "http://127.0.0.1:8000/api/users/"
+        "https://blogspheredb.onrender.com/api/users/"
       );
 
       // Get all comments
