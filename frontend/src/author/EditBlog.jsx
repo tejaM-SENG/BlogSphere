@@ -23,7 +23,7 @@ function EditBlog() {
     try {
 
       const res = await axios.get(
-        `http://127.0.0.1:8000/api/blogs/${id}/`
+        `https://blogspheredb.onrender.com/api/blogs/${id}/`
       );
 
       // Prevent editing other author's blog
@@ -66,7 +66,7 @@ function EditBlog() {
         .filter(tag => tag !== "");
 
       await axios.put(
-        `http://127.0.0.1:8000/api/blogs/${id}/`,
+        `https://blogspheredb.onrender.com/api/blogs/${id}/`,
         {
           title: blog.title,
           category: blog.category,
