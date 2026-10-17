@@ -31,7 +31,7 @@ function MyBlogs() {
     try {
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/blogs/"
+        "https://blogspheredb.onrender.com/api/blogs/"
       );
 
       // Get only current author's blogs
@@ -58,7 +58,7 @@ function MyBlogs() {
     try {
 
       await axios.delete(
-        `http://127.0.0.1:8000/api/blogs/${id}/`
+        `https://blogspheredb.onrender.com/api/blogs/${id}/`
       );
 
       fetchBlogs();
