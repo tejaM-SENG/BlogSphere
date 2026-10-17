@@ -146,6 +146,7 @@ MAILERS = {
 }
 
 CORS_ALLOWED_ORIGINS = [
+    "https://blogsphere-g7b5.onrender.com",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
