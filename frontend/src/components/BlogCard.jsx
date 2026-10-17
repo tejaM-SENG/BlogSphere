@@ -46,7 +46,7 @@ function BlogCard({ blog }) {
     const fetchComments = async () => {
       try {
         const res = await axios.get(
-          `http://127.0.0.1:8000/api/comments/?blog=${blog.id}`
+          `https://blogspheredb.onrender.com/api/comments/?blog=${blog.id}`
         );
 
         setCommentCount(res.data.length);
