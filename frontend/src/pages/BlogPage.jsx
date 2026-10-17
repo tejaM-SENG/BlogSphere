@@ -26,7 +26,7 @@ const BlogPage = () => {
     try {
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/blogs/"
+        "https://blogspheredb.onrender.com/api/blogs/"
       );
 
       // Latest blogs first
