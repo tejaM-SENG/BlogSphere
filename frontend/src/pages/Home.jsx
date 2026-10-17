@@ -14,11 +14,11 @@ function Home() {
       try {
 
         const blogsRes = await axios.get(
-          "http://127.0.0.1:8000/api/blogs/"
+          "https://blogspheredb.onrender.com/api/blogs/"
         );
 
         const commentsRes = await axios.get(
-          "http://127.0.0.1:8000/api/comments/"
+          "https://blogspheredb.onrender.com/api/comments/"
         );
 
         setBlogs(blogsRes.data);
