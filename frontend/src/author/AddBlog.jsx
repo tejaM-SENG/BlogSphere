@@ -47,7 +47,7 @@ function AddBlog() {
         .filter(tag => tag !== "");
 
       await axios.post(
-        "http://127.0.0.1:8000/api/blogs/",
+        "https://blogspheredb.onrender.com/api/blogs/",
         {
           title: blog.title,
           category: blog.category,
