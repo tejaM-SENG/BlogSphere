@@ -26,7 +26,7 @@ function BlogDetails() {
     try {
 
       const res = await axios.get(
-        `http://127.0.0.1:8000/api/blogs/${id}/`
+        `https://blogspheredb.onrender.com/api/blogs/${id}/`
       );
 
       setBlog(res.data);
@@ -41,7 +41,7 @@ function BlogDetails() {
     try {
 
       const res = await axios.get(
-        "http://127.0.0.1:8000/api/comments/"
+        "https://blogspheredb.onrender.com/api/comments/"
       );
 
       // Only comments belonging to this blog
@@ -77,7 +77,7 @@ function BlogDetails() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/api/comments/",
+        "https://blogspheredb.onrender.com/api/comments/",
         {
           blog: Number(id),
           user: user.id,
