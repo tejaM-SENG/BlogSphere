@@ -24,7 +24,7 @@ function AuthorDashboard() {
 
       // Get all blogs
       const blogRes = await axios.get(
-        "http://127.0.0.1:8000/api/blogs/"
+        "https://blogspheredb.onrender.com/api/blogs/"
       );
 
       // Get only this author's blogs
@@ -62,7 +62,7 @@ function AuthorDashboard() {
 
       // Comments
       const commentRes = await axios.get(
-        "http://127.0.0.1:8000/api/comments/"
+        "https://blogspheredb.onrender.com/api/comments/"
       );
 
       const blogIds = authorBlogs.map(
