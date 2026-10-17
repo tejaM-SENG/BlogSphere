@@ -15,11 +15,11 @@ function ManageAuthors() {
     try {
 
       const usersRes = await axios.get(
-        "http://127.0.0.1:8000/api/users/"
+        "https://blogspheredb.onrender.com/api/users/"
       );
 
       const blogsRes = await axios.get(
-        "http://127.0.0.1:8000/api/blogs/"
+        "https://blogspheredb.onrender.com/api/blogs/"
       );
 
       const authorUsers = usersRes.data.filter(
@@ -45,7 +45,7 @@ function ManageAuthors() {
     try {
 
       await axios.delete(
-        `http://127.0.0.1:8000/api/users/${id}/`
+        `https://blogspheredb.onrender.com/api/users/${id}/`
       );
 
       fetchData();
