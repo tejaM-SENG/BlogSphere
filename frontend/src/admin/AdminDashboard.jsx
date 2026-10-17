@@ -19,7 +19,7 @@ function AdminDashboard() {
 
       // Get all blogs
       const blogsRes = await axios.get(
-        "http://127.0.0.1:8000/api/blogs/"
+        "https://blogspheredb.onrender.com/api/blogs/"
       );
 
       // Get all users
@@ -29,7 +29,7 @@ function AdminDashboard() {
 
       // Get all comments
       const commentsRes = await axios.get(
-        "http://127.0.0.1:8000/api/comments/"
+        "https://blogspheredb.onrender.com/api/comments/"
       );
 
       // -------------------------
