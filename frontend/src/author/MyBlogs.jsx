@@ -70,7 +70,7 @@ function MyBlogs() {
   };
 
   return (
-    <div className="container my-5">
+    <div className="container my-5 auth-blogs">
 
       {/* ================= HEADER ================= */}
       <div className="d-flex flex-wrap justify-content-between align-items-center mb-4">
