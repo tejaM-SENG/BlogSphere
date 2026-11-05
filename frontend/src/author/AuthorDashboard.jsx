@@ -107,7 +107,7 @@ function AuthorDashboard() {
       </div>
 
       {/* STATISTICS */}
-      <div className="row">
+      <div className="row author-stats">
 
         {/* Blogs */}
         <div className="col-md-4 mb-4">
