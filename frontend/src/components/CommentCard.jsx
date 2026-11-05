@@ -1,6 +1,6 @@
 function CommentCard({ comment }) {
   return (
-    <div className="card mb-3 border-0 shadow-sm">
+    <div className="card mb-3 border-0 shadow-sm comment-card">
       <div className="card-body">
 
         {/* User Name */}
