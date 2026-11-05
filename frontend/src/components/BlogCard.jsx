@@ -62,7 +62,7 @@ function BlogCard({ blog }) {
 
   return (
     <div
-      className="card hblog h-100 border-0 shadow-sm overflow-hidden"
+      className="card hblog h-100 border-0 shadow-sm overflow-hidden blog-card"
       style={{
         borderRadius: "15px",
         transition: "all 0.3s ease",
