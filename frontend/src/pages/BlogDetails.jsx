@@ -112,7 +112,7 @@ function BlogDetails() {
   }
 
   return (
-    <div className="container my-5">
+    <div className="container my-5 blog-details-page">
 
       {/* ================= BLOG HEADER ================= */}
 
