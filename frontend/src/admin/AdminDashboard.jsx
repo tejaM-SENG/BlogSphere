@@ -87,7 +87,7 @@ function AdminDashboard() {
   };
 
   return (
-    <div className="container my-5">
+    <div className="container my-5 admin-dashboard">
 
       {/* DASHBOARD HEADER */}
       <h2 className="mb-4">
