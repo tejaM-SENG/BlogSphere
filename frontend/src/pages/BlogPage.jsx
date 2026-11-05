@@ -119,7 +119,7 @@ const BlogPage = () => {
   ];
 
   return (
-    <>
+    <main className='blog-page'>
 
       {/* Hero */}
       <section className="bg-primary text-white py-5">
@@ -399,7 +399,7 @@ const BlogPage = () => {
         </div>
       </div>
 
-    </>
+    </main>
   );
 };
 
