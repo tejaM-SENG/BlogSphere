@@ -66,7 +66,7 @@ function Login() {
 
   return (
     <div
-      className="d-flex align-items-center justify-content-center"
+      className="d-flex align-items-center justify-content-center login-page"
       style={{
         minHeight: "calc(100vh - 76px)",
         padding: "20px 0"
