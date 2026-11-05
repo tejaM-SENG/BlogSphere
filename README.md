@@ -1,6 +1,6 @@
 # BlogSphere – Full-Stack Blogging Platform
 
-BlogSphere is a full-stack blogging platform developed using React.js, Python, Django REST Framework, and MySQL. The application provides a platform for managing blog content, user accounts, and comments through dedicated Admin and Author dashboards.
+BlogSphere is a full-stack blogging platform developed using React.js, Python, Django REST Framework, and SQLite. The application provides a platform for managing blog content, user accounts, and comments through dedicated Admin and Author dashboards.
 
 ## 🚀 Live Demo
 
@@ -14,7 +14,7 @@ BlogSphere is a full-stack blogging platform developed using React.js, Python, D
 
 BlogSphere is designed to provide an organized blogging environment where authors can create, publish, update, and manage their blog posts, while administrators can oversee users and platform content.
 
-The React frontend communicates with the Django REST Framework backend through REST APIs using Axios. MySQL is used to store application data, including users, blogs, and comments.
+The React frontend communicates with the Django REST Framework backend through REST APIs using Axios. SQLite is used to store application data, including users, blogs, and comments.
 
 ## ✨ Key Features
 
@@ -45,7 +45,7 @@ The React frontend communicates with the Django REST Framework backend through R
 ### 🔗 Frontend and Backend Integration
 - React.js frontend integration with Django REST APIs.
 - Axios for HTTP requests.
-- Dynamic data retrieval from MySQL.
+- Dynamic data retrieval from SQLite.
 - Backend-driven user and blog management.
 
 ## 🛠️ Technologies Used
@@ -90,8 +90,6 @@ Use the following demo accounts to explore the application.
 | Admin | demo@admin.com | demo@1234 |
 | Author | demo@author.com | auth@1234 |
 
-
-**Note:** Replace these placeholders with actual working demo accounts from your deployed database. Use dedicated testing accounts rather than personal credentials.
 
 ## 🏗️ Application Architecture
 
@@ -178,7 +176,6 @@ BlogSphere/
 
 - Python 3.10 or later (use a version supported by your dependencies).
 - Node.js and npm.
-- MySQL Server.
 - Git.
 
 ### 1. Clone the Repository
@@ -343,9 +340,9 @@ BlogSphere is deployed using Render with separate frontend and backend services.
 - Configure static and media file handling.
 - Deploy the backend service.
 
-**Frontend URL:** ADD_YOUR_FRONTEND_RENDER_URL
+**Frontend URL:** https://blogsphere-g7b5.onrender.com/
 
-**Backend URL:** ADD_YOUR_BACKEND_RENDER_URL
+**Backend URL:** https://blogspheredb.onrender.com/api
 
 ## 🎯 Project Objectives
 
