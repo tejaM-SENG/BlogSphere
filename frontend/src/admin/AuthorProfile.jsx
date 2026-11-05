@@ -62,7 +62,7 @@ function AuthorProfile() {
   }
 
   return (
-    <div className="container my-5">
+    <div className="container my-5 author-profile">
 
       {/* Author Profile */}
       <div className="card shadow mb-5">
