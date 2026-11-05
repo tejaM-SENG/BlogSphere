@@ -92,7 +92,7 @@ function AuthorDashboard() {
 
   return (
 
-    <div className="container my-5">
+    <div className="container my-5 author-dashboard">
 
       {/* HEADER */}
       <div className="mb-4">
