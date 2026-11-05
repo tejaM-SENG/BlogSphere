@@ -65,7 +65,7 @@ function ManageAuthors() {
   };
 
   return (
-    <div className="container my-5">
+    <div className="container my-5 manage-author">
 
       {/* Page Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
