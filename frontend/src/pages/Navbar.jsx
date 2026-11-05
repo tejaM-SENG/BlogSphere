@@ -17,7 +17,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand me-5" to="/">
-          <h2>BLOG<span className='text-danger'>Sphere</span></h2>
+          <h1>BLOG<span className='text-danger'>Sphere</span></h1>
         </Link>
         <button
           className="navbar-toggler"
