@@ -72,7 +72,7 @@ function Home() {
     .slice(0, 5);
 
   return (
-    <>
+    <main class='home-page'>
 
       {/* HERO SECTION */}
       <section className="bg-dark text-white">
@@ -291,7 +291,7 @@ function Home() {
         </div>
       </section>
 
-    </>
+    </main>
   );
 }
 
