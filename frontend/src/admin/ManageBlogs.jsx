@@ -115,7 +115,7 @@ function ManageBlogs() {
 
   return (
 
-    <div className="container my-5">
+    <div className="container my-5 manage-blog">
 
       {/* Page Header */}
       <div className="d-flex justify-content-between align-items-center mb-4">
