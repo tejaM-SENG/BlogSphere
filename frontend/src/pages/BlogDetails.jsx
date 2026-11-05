@@ -276,7 +276,7 @@ function BlogDetails() {
         <div className="col-lg-4">
 
           <div
-            className="card border-0 shadow-sm sticky-top"
+            className="card border-0 shadow-sm"
             style={{
               top: "20px",
               borderRadius: "15px"
