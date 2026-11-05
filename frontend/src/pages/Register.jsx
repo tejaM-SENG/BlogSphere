@@ -60,7 +60,7 @@ function Register() {
 
   return (
     <div
-      className="d-flex align-items-center justify-content-center"
+      className="d-flex align-items-center justify-content-center registration-page"
       style={{
         minHeight: "calc(100vh - 76px)",
         padding: "15px 0"
