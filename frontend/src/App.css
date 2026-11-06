@@ -231,7 +231,6 @@ footer small {
     background:
         radial-gradient(circle at 85% 30%, rgba(98,84,231,.22), transparent 35%),
         linear-gradient(120deg, #171727, #292743) !important;
-    padding: 48px 0 !important;
     overflow: hidden;
 }
 
